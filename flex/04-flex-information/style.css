@@ -24,3 +24,19 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* mon boulot */
+.title{
+  text-align: center;
+  margin-bottom:32px ;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  gap:52px;
+}
+.section{
+  max-width: 200px;
+}

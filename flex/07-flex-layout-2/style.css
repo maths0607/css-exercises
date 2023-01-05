@@ -26,3 +26,59 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* travail */
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+
+}
+.header{
+  display: flex;
+  align-items: center;
+  padding-left:20px ;
+  font-weight: bold;
+  font-size:20px;
+  
+}
+.sidebar ul{
+  list-style: none;
+  margin-left: 15px;
+  padding-left: 0;
+}
+.sidebar{
+  flex-shrink : 0;
+}
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  
+}
+.main{
+  display:flex;
+  flex-grow:1;
+}
+
+.divs {
+  display:flex;
+  flex-wrap: wrap;
+  gap:25px;
+  margin:30px;
+  
+  
+}
+.card{
+  box-sizing: border-box;
+  width:300px;
+  padding: 15px 15px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+}
